@@ -330,7 +330,7 @@ int main(){
             Struct out;
             clock_t begin = clock();
             double time_spent=0.0;
-			out = minimax(board, 7, -INF-50, INF+50, 1);
+			out = minimax(board, 8, -INF-50, INF+50, 1);
 			col = out.column;
 			//col=pick_best_move(board,AI_PIECE);
 			int minimax_score = out.value;
